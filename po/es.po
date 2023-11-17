@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: blackbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
-"PO-Revision-Date: 2023-11-10 11:35+0000\n"
+"PO-Revision-Date: 2023-11-18 18:03+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: data/com.raggesilver.BlackBox.desktop.in:3
 msgid "Black Box"
@@ -162,9 +162,8 @@ msgid "Cursor shape"
 msgstr "Forma del cursor"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:130
-#, fuzzy
 msgid "Whether or not the cursor should blink"
-msgstr "Mostrar o no las barras de desplazamiento"
+msgstr "Si el cursor debe parpadear o no"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:134
 msgid "If enabled, ctrl+c and ctrl+v will work for copy/paste"
@@ -189,9 +188,8 @@ msgstr ""
 
 #. 0 = Previous terminal CWD, 1 = Home Directory, 2 = Custom
 #: data/com.raggesilver.BlackBox.gschema.xml:155
-#, fuzzy
 msgid "Working directory mode"
-msgstr "Establecer directorio de trabajo actual"
+msgstr "Modo del directorio de trabajo"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:159
 msgid "Custom working directory for new terminals"
@@ -217,9 +215,8 @@ msgid "Whether search should be performed using regular expressions"
 msgstr "Si la búsqueda debe realizarse mediante expresiones regulares"
 
 #: src/gtk/shortcut-dialog.ui:6
-#, fuzzy
 msgid "Edit Shortcut"
-msgstr "Mostrar atajos"
+msgstr "Editar el acceso directo"
 
 #: src/gtk/shortcut-dialog.ui:21 src/utils/Dialogs.vala:36
 #: src/utils/Dialogs.vala:38 src/widgets/Window.vala:617
@@ -232,7 +229,7 @@ msgstr ""
 
 #: src/gtk/shortcut-dialog.ui:68
 msgid "This shortcut is already in use"
-msgstr ""
+msgstr "Este atajo ya está en uso"
 
 #: src/gtk/shortcut-dialog.ui:81
 msgid "Press Escape to cancel or Backspace to disable shortcut"
@@ -243,36 +240,36 @@ msgid "Keyboard"
 msgstr ""
 
 #: src/gtk/shortcut-editor.ui:10
-#, fuzzy
 msgid "Shortcuts"
-msgstr "Mostrar atajos"
+msgstr "Atajos"
 
 #: src/gtk/shortcut-editor.ui:29
-#, fuzzy
 msgid "Reset All Shortcuts"
-msgstr "Mostrar atajos"
+msgstr "Restablecer todos los atajos"
 
 #: src/gtk/shortcut-editor.ui:30
 msgid ""
 "This will reset all shortcuts to their default keybindings and overwrite "
 "your config file."
 msgstr ""
+"Esto restablecerá todos los accesos directos a sus combinaciones de teclas "
+"predeterminadas y sobrescribirá su archivo de configuración."
 
 #: src/gtk/shortcut-editor.ui:34
 msgid "Reset All"
-msgstr ""
+msgstr "Restaurar todo"
 
 #: src/gtk/search-toolbar.ui:20
 msgid "Find"
-msgstr ""
+msgstr "Encontrar"
 
 #: src/gtk/search-toolbar.ui:41
 msgid "Previous result"
-msgstr ""
+msgstr "Resultado anterior"
 
 #: src/gtk/search-toolbar.ui:47
 msgid "Next result"
-msgstr ""
+msgstr "Resultado siguiente"
 
 #: src/gtk/search-toolbar.ui:89
 msgid "Search wraps around"
