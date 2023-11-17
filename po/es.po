@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
 "PO-Revision-Date: 2023-11-18 18:03+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Last-Translator: Sebastian Nicolas <nikito.yogurt@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/es/>\n"
 "Language: es\n"
@@ -185,6 +185,8 @@ msgstr "Comando personalizado para usar en lugar del shell del usuario"
 msgid ""
 "Send a desktop notification when a process is completed on an unfocussed tab"
 msgstr ""
+"Mandar una notificación de escritorio cuando un proceso sea completado en "
+"una pestaña desatendida"
 
 #. 0 = Previous terminal CWD, 1 = Home Directory, 2 = Custom
 #: data/com.raggesilver.BlackBox.gschema.xml:155
@@ -193,7 +195,7 @@ msgstr "Modo del directorio de trabajo"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:159
 msgid "Custom working directory for new terminals"
-msgstr ""
+msgstr "Directorio de trabajo personalizado para nuevos terminales"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:167
 msgid ""
@@ -221,11 +223,11 @@ msgstr "Editar el acceso directo"
 #: src/gtk/shortcut-dialog.ui:21 src/utils/Dialogs.vala:36
 #: src/utils/Dialogs.vala:38 src/widgets/Window.vala:617
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/gtk/shortcut-dialog.ui:28
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: src/gtk/shortcut-dialog.ui:68
 msgid "This shortcut is already in use"
@@ -233,11 +235,11 @@ msgstr "Este atajo ya está en uso"
 
 #: src/gtk/shortcut-dialog.ui:81
 msgid "Press Escape to cancel or Backspace to disable shortcut"
-msgstr ""
+msgstr "Presione Esc para cancelar o Retroceso para desativar el atajo"
 
 #: src/gtk/shortcut-editor.ui:6
 msgid "Keyboard"
-msgstr ""
+msgstr "Teclado"
 
 #: src/gtk/shortcut-editor.ui:10
 msgid "Shortcuts"
