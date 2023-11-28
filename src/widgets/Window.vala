@@ -201,6 +201,15 @@ public class Terminal.Window : Adw.ApplicationWindow {
   }
 
   private void connect_signals () {
+    this.bind_property (
+      "active-terminal-title",
+      this,
+      "title",
+      GLib.BindingFlags.SYNC_CREATE,
+      null,
+      null
+    );
+
     this.settings.schema.bind (
       "fill-tabs",
       this.tab_bar,
