@@ -746,6 +746,13 @@ public class Terminal.Window : Adw.ApplicationWindow {
     var tab = new TerminalTab (this, this.tab_view.n_pages + 1, command, cwd);
     var page = this.tab_view.add_page (tab, null);
 
+    tab.terminal.bind_property ("needs-attention",
+                                page,
+                                "needs-attention",
+                                GLib.BindingFlags.SYNC_CREATE,
+                                null,
+                                null);
+
     tab.bind_property ("title",
                        page,
                        "title",
