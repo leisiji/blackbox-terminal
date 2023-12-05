@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: blackbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
-"PO-Revision-Date: 2023-11-18 18:03+0000\n"
-"Last-Translator: Sebastian Nicolas <nikito.yogurt@gmail.com>\n"
+"PO-Revision-Date: 2023-12-05 21:03+0000\n"
+"Last-Translator: \"Nulo (he/him)\" <catdevnull@riseup.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: data/com.raggesilver.BlackBox.desktop.in:3
 msgid "Black Box"
@@ -153,9 +153,8 @@ msgid "Terminal cell height"
 msgstr "Alto de celda del terminal"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:122
-#, fuzzy
 msgid "Terminal bell"
-msgstr "Terminal"
+msgstr "Timbre de terminal"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:126
 msgid "Cursor shape"
@@ -278,18 +277,16 @@ msgid "Search wraps around"
 msgstr ""
 
 #: src/gtk/search-toolbar.ui:94
-#, fuzzy
 msgid "Match is case sensitive"
-msgstr "Si la búsqueda debe distinguir entre mayúsculas y minúsculas"
+msgstr "Distinguir entre mayúsculas y minúsculas"
 
 #: src/gtk/search-toolbar.ui:99
 msgid "Match entire words only"
-msgstr ""
+msgstr "Solo buscar palabras enteras"
 
 #: src/gtk/search-toolbar.ui:104
-#, fuzzy
 msgid "Match using regular expression"
-msgstr "Si la búsqueda debe realizarse mediante expresiones regulares"
+msgstr "Buscar con expresiones regulares"
 
 #: src/gtk/preferences-window.ui:12
 msgid "General"
@@ -305,7 +302,7 @@ msgstr "Recordar el tamaño de la ventana"
 
 #: src/gtk/preferences-window.ui:30
 msgid "Theme settings have been moved to Terminal > Appearance."
-msgstr ""
+msgstr "La configuración de tema se movió a Terminal > Apariencia."
 
 #: src/gtk/preferences-window.ui:43
 msgid "Tabs"
@@ -330,13 +327,12 @@ msgid "Context Aware"
 msgstr ""
 
 #: src/gtk/preferences-window.ui:75
-#, fuzzy
 msgid ""
 "If enabled, the header bar will be colored differently when the active tab "
 "is running ssh or sudo."
 msgstr ""
-"Si se activa, la barra de pestañas se sustituirá por una etiqueta de título "
-"cuando haya una sola pestaña abierta"
+"Si se activa, la barra de pestañas tendrá un color distinto si la pestaña "
+"activa está corriendo ssh o sudo."
 
 #: src/gtk/preferences-window.ui:86
 msgid "Show Menu Button"
@@ -348,7 +344,7 @@ msgstr ""
 
 #: src/gtk/preferences-window.ui:98
 msgid "Enable to reserve some space on the left side to drag the window."
-msgstr ""
+msgstr "Reservar espacio a la izquierda para arrastrar la ventana."
 
 #: src/gtk/preferences-window.ui:108
 msgid "Floating Controls"
@@ -409,11 +405,11 @@ msgstr "Alto"
 
 #: src/gtk/preferences-window.ui:207
 msgid "Bright Bold Text"
-msgstr ""
+msgstr "Texto Brillante Negrita"
 
 #: src/gtk/preferences-window.ui:208
 msgid "Use bright colors for bold text."
-msgstr ""
+msgstr "Usar colores brillantes para texto en negrita."
 
 #: src/gtk/preferences-window.ui:219
 msgid "Easy Copy &amp; Paste"
@@ -425,13 +421,13 @@ msgstr "Usa ctrl+c/ctrl+v para copiar/pegar."
 
 #: src/gtk/preferences-window.ui:236
 msgid "Audible Bell"
-msgstr ""
+msgstr "Timbre con sonido"
 
 #: src/gtk/preferences-window.ui:237
-#, fuzzy
 msgid "If enabled, terminals might use an audible bell to indicate events."
 msgstr ""
-"Si se activa, los terminales se desplazarán por píxeles en lugar de por filas"
+"Si se activa, los terminales pueden usar un timbre con sonido para indicar "
+"eventos."
 
 #: src/gtk/preferences-window.ui:250
 msgid "Cursor"
@@ -439,10 +435,9 @@ msgstr "Cursor"
 
 #: src/gtk/preferences-window.ui:251
 msgid "Adjust cursor shape and behavior."
-msgstr ""
+msgstr "Ajustar forma y comportamiento del cursor."
 
 #: src/gtk/preferences-window.ui:254
-#, fuzzy
 msgid "Cursor Shape"
 msgstr "Forma del cursor"
 
@@ -485,29 +480,27 @@ msgstr "Relleno"
 
 #: src/gtk/preferences-window.ui:300
 msgid "Opacity"
-msgstr ""
+msgstr "Opacidad"
 
 #: src/gtk/preferences-window.ui:301
 msgid "Terminal background opacity."
-msgstr ""
+msgstr "Opacidad del fondo de la terminal."
 
 #: src/gtk/preferences-window.ui:323
-#, fuzzy
 msgid "Working Directory"
-msgstr "Establecer directorio de trabajo actual"
+msgstr "Directorio de trabajo actual"
 
 #: src/gtk/preferences-window.ui:332
 msgid "Previous Session"
-msgstr ""
+msgstr "Sesión anterior"
 
 #: src/gtk/preferences-window.ui:333
 msgid "Home Directory"
 msgstr ""
 
 #: src/gtk/preferences-window.ui:334
-#, fuzzy
 msgid "Custom"
-msgstr "Comando personalizado"
+msgstr "Personalizado"
 
 #: src/gtk/preferences-window.ui:343
 #, fuzzy
@@ -536,15 +529,15 @@ msgstr "Usar desplazamiento superpuesto"
 
 #: src/gtk/preferences-window.ui:408
 msgid "Fixed Size"
-msgstr ""
+msgstr "Tamaño fijo"
 
 #: src/gtk/preferences-window.ui:409
 msgid "Unlimited"
-msgstr ""
+msgstr "Ilimitado"
 
 #: src/gtk/preferences-window.ui:410 src/widgets/ShortcutEditor.vala:106
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: src/gtk/preferences-window.ui:419
 msgid "Scrollback Lines"
