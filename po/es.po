@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
 "PO-Revision-Date: 2023-12-05 21:03+0000\n"
-"Last-Translator: \"Nulo (he/him)\" <catdevnull@riseup.net>\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/es/>\n"
 "Language: es\n"
@@ -274,7 +274,7 @@ msgstr "Resultado siguiente"
 
 #: src/gtk/search-toolbar.ui:89
 msgid "Search wraps around"
-msgstr ""
+msgstr "La búsqueda envuelve"
 
 #: src/gtk/search-toolbar.ui:94
 msgid "Match is case sensitive"
@@ -313,9 +313,8 @@ msgid "Expand Tabs"
 msgstr "Expandir pestañas"
 
 #: src/gtk/preferences-window.ui:59
-#, fuzzy
 msgid "Header Bar"
-msgstr "Barra de encabezado"
+msgstr "Barra de la cabecera"
 
 #: src/gtk/preferences-window.ui:63
 #, fuzzy
