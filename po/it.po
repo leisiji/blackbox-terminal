@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
 "PO-Revision-Date: 2023-12-27 22:10+0000\n"
-"Last-Translator: Nicolò Bertazzo <n.bertazzo@protonmail.com>\n"
+"Last-Translator: Fabio Bedeschi <fabiobedeschi5@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/it/>\n"
 "Language: it\n"
@@ -157,9 +157,8 @@ msgid "Terminal cell height"
 msgstr "Altezza della cella del terminale"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:122
-#, fuzzy
 msgid "Terminal bell"
-msgstr "Terminale"
+msgstr "Avviso del terminale"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:126
 msgid "Cursor shape"
@@ -201,7 +200,7 @@ msgstr "Cartella di lavoro iniziale"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:159
 msgid "Custom working directory for new terminals"
-msgstr ""
+msgstr "Cartella di lavoro personalizzata per i nuovi terminali"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:167
 msgid ""
