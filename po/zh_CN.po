@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: blackbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
-"PO-Revision-Date: 2024-01-02 06:07+0000\n"
+"PO-Revision-Date: 2024-01-04 14:07+0000\n"
 "Last-Translator: xian zhang <z929346631@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "blackbox/blackbox/zh_Hans/>\n"
@@ -93,9 +93,8 @@ msgstr "启用后，终端将会渲染sixel像素序列"
 #. 0 = Fixed size, 1 = Unlimited, 2 = Disabled
 #: data/com.raggesilver.BlackBox.gschema.xml:73
 #: src/gtk/preferences-window.ui:404
-#, fuzzy
 msgid "Scrollback mode"
-msgstr "滚动条"
+msgstr "回滚模式"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:77
 msgid "Number of lines stored in scrollback"
@@ -424,7 +423,7 @@ msgstr "Block"
 
 #: src/gtk/preferences-window.ui:259
 msgid "IBeam"
-msgstr ""
+msgstr "I光标"
 
 #: src/gtk/preferences-window.ui:260
 msgid "Underline"
@@ -515,9 +514,8 @@ msgid "Disabled"
 msgstr "禁用"
 
 #: src/gtk/preferences-window.ui:419
-#, fuzzy
 msgid "Scrollback Lines"
-msgstr "滚动条"
+msgstr "回滚行"
 
 #: src/gtk/preferences-window.ui:437
 msgid "Command"
@@ -657,7 +655,6 @@ msgid ""
 msgstr "这将把所有设置还原为默认设置。您的扩展主题不会被删除。"
 
 #: src/gtk/preferences-window.ui:664
-#, fuzzy
 msgid "Reset preferences"
 msgstr "重置设置"
 
@@ -695,14 +692,12 @@ msgstr "首选项"
 
 #: src/gtk/terminal-menu.ui:78 src/gtk/header-bar.ui:78
 #: src/widgets/ShortcutEditor.vala:142
-#, fuzzy
 msgid "Keyboard Shortcuts"
-msgstr "显示快捷键"
+msgstr "键盘快捷键"
 
 #: src/gtk/terminal-menu.ui:82 src/gtk/header-bar.ui:82
-#, fuzzy
 msgid "About Black Box"
-msgstr "Black Box"
+msgstr "关于 Black Box"
 
 #: src/gtk/help-overlay.ui:10
 msgctxt "shortcut window"
@@ -740,7 +735,6 @@ msgid "Toggle fullscreen"
 msgstr "全屏"
 
 #: src/gtk/help-overlay.ui:51
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Terminal"
 msgstr "终端"
@@ -873,7 +867,6 @@ msgid "Move Tab to New Window"
 msgstr "将Tab移至新窗口"
 
 #: src/gtk/tab-menu.ui:32 src/widgets/ShortcutEditor.vala:146
-#, fuzzy
 msgid "Close Tab"
 msgstr "关闭标签页"
 
@@ -1044,12 +1037,10 @@ msgid "Remove %s"
 msgstr "删除 %s"
 
 #: src/widgets/ShortcutEditor.vala:132
-#, fuzzy
 msgid "Focus Next Tab"
 msgstr "将焦点切换到下一个标签页"
 
 #: src/widgets/ShortcutEditor.vala:133
-#, fuzzy
 msgid "Focus Previous Tab"
 msgstr "将焦点切换到上一个标签页"
 
@@ -1083,7 +1074,6 @@ msgid "Switch to Tab %u"
 msgstr "切换到选项卡 %u"
 
 #: src/widgets/ShortcutEditor.vala:158
-#, fuzzy
 msgid "Switch to Last Tab"
 msgstr "切换到最后的标签页"
 
