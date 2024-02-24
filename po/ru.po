@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: blackbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
-"PO-Revision-Date: 2023-10-01 08:00+0000\n"
-"Last-Translator: ken <kenjirokoro.business@gmail.com>\n"
+"PO-Revision-Date: 2024-02-02 14:01+0000\n"
+"Last-Translator: Igor Tankov <75366889a@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/blackbox/"
 "blackbox/ru/>\n"
 "Language: ru\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/com.raggesilver.BlackBox.desktop.in:3
 msgid "Black Box"
-msgstr "Чёрный Ящик"
+msgstr "Black Box"
 
 #: data/com.raggesilver.BlackBox.desktop.in:9
 msgid "Terminal;terminal;shell;prompt;command;commandline;cmd;box;"
@@ -39,7 +39,7 @@ msgstr "Высота окна"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:14
 msgid "Whether or not to remember window size"
-msgstr "Запоминать ли размер окна"
+msgstr "Запоминание размера окна"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:24
 msgid "Font family and size"
@@ -47,41 +47,44 @@ msgstr "Семейство и размер шрифта"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:28
 msgid "Whether the window should inherit terminal theme's colors"
-msgstr "Должно ли окно использовать цвета темы терминала"
+msgstr "Использование цветовой схемы терминала"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:32
 msgid "Terminal window background opacity"
-msgstr "Прозрачность заднего фона терминального окна"
+msgstr "Прозрачность заднего фона в терминале"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:36
 msgid "Whether or not tabs should expand to fill tab bar"
-msgstr "Должны ли вкладки расширяться для заполнения панели вкладок"
+msgstr "Расширение вкладок для заполнения панели вкладок"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:40
 msgid "Whether the headerbar should be shown or not"
-msgstr "Должна ли отображаться панель заголовка"
+msgstr "Отображение панели заголовка"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:44
 msgid ""
 "If enabled, the header bar will be colored differently for root and ssh "
 "contexts"
 msgstr ""
+"Если включёно, цвет заголовка будет изменяться, пока вы используете root или "
+"ssh сессии"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:48
 msgid "Whether or not to display a menu button in the headerbar"
-msgstr "Должна ли отображаться кнопка меню на панели заголовка"
+msgstr "Отображение кнопки меню в заголовке"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:52
 msgid "Whether or not to reserve an area for dragging the header bar"
-msgstr "Резервировать ли область для перетаскивания панели заголовка"
+msgstr "Выделение области перетаскивания в заголовке"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:56
 msgid "Whether or not to show scrollbars"
-msgstr "Отображать ли полосы прокрутки"
+msgstr "Отображение полос прокрутки"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:60
+#, fuzzy
 msgid "Whether overlay scrolling should be enabled"
-msgstr "Включить ли оверлейную прокрутку"
+msgstr "Включить ли оверлейную полосу прокрутки"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:64
 msgid "If enabled, terminals will scroll by pixels instead of rows"
