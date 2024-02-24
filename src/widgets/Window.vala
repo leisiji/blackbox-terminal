@@ -38,10 +38,7 @@ public struct Terminal.Padding {
   }
 
   public static Padding from_variant (Variant vari) {
-    return_val_if_fail (
-      vari.check_format_string ("(uuuu)", false),
-      Padding.zero ()
-    );
+    if (!vari.check_format_string ("(uuuu)", false)) return Padding.zero ();
 
     var iter = vari.iterator ();
     uint top = 0, right = 0, bottom = 0, left = 0;

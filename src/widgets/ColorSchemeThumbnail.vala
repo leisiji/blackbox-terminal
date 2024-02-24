@@ -125,7 +125,7 @@ public class Terminal.ColorSchemePreviewPaintable : GLib.Object, Gdk.Paintable {
 
   private async void load_image () {
     var file_content = ColorSchemeThumbnailProvider.apply_scheme (this.scheme);
-    return_if_fail (file_content != null);
+    if (file_content == null) return;
 
     try {
       this.handler = new Rsvg.Handle.from_data (file_content);
