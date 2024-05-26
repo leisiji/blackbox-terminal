@@ -115,6 +115,7 @@ public class Terminal.Terminal : Vte.Terminal {
     this.settings.notify["font"].connect (this.on_font_changed);
     this.settings.notify["terminal-padding"].connect (this.on_padding_changed);
     this.settings.notify["opacity"].connect (this.on_theme_changed);
+    this.settings.notify ["copy-on-select"].connect (this.on_copy_select_changed);
 
     this.setup_drag_drop ();
     this.setup_regexes ();
@@ -123,6 +124,7 @@ public class Terminal.Terminal : Vte.Terminal {
     this.on_theme_changed ();
     this.on_font_changed ();
     this.on_padding_changed ();
+    this.on_copy_select_changed ();
 
     try {
       this.spawn (command, cwd);
@@ -274,6 +276,14 @@ public class Terminal.Terminal : Vte.Terminal {
     );
   }
 
+  private void on_copy_select_changed() {
+    if (Settings.get_default ().copy_on_select) {
+      this.selection_changed.connect (this.do_copy_clipboard);
+    } else {
+      this.selection_changed.disconnect (this.do_copy_clipboard);
+    }
+  }
+
   private void bind_data () {
     this.settings.schema.bind (
       "theme-bold-is-bright",
@@ -407,6 +417,7 @@ public class Terminal.Terminal : Vte.Terminal {
         });
       }
     });
+
   }
 
   private void spawn (string? command, string? cwd) throws Error {
