@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: blackbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-29 03:28-0300\n"
-"PO-Revision-Date: 2024-01-04 14:07+0000\n"
-"Last-Translator: xian zhang <z929346631@gmail.com>\n"
+"PO-Revision-Date: 2024-03-01 11:00+0000\n"
+"Last-Translator: CloneWith <clonewith@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "blackbox/blackbox/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/com.raggesilver.BlackBox.desktop.in:3
 msgid "Black Box"
@@ -27,6 +27,8 @@ msgstr "Black Box"
 #: data/com.raggesilver.BlackBox.desktop.in:9
 msgid "Terminal;terminal;shell;prompt;command;commandline;cmd;box;"
 msgstr ""
+"终端;命令;命令行;外壳;Terminal;terminal;shell;prompt;command;commandline;cmd;"
+"box;"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:6
 msgid "Window width"
@@ -68,11 +70,11 @@ msgstr "如果启用，标题栏将根据root和ssh上下文显示不同的颜�
 
 #: data/com.raggesilver.BlackBox.gschema.xml:48
 msgid "Whether or not to display a menu button in the headerbar"
-msgstr "在否在标题栏上显示菜单按钮"
+msgstr "是否在标题栏上显示菜单按钮"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:52
 msgid "Whether or not to reserve an area for dragging the header bar"
-msgstr "在否在标题栏上预留可拖拽区域"
+msgstr "是否在标题栏上预留可拖拽区域"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:56
 msgid "Whether or not to show scrollbars"
@@ -153,7 +155,7 @@ msgstr "光标形状"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:130
 msgid "Whether or not the cursor should blink"
-msgstr "光标是否应该闪烁"
+msgstr "光标是否闪烁"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:134
 msgid "If enabled, ctrl+c and ctrl+v will work for copy/paste"
@@ -188,7 +190,7 @@ msgstr "新终端的自定义工作目录"
 #: data/com.raggesilver.BlackBox.gschema.xml:167
 msgid ""
 "Whether clicking next on the last search result should return to the first"
-msgstr "在最后一个搜索结果上单击“下一步”是否应返回到第一个搜索结果"
+msgstr "在最后一个搜索结果上单击“下一个结果”是否应返回到第一个搜索结果"
 
 #: data/com.raggesilver.BlackBox.gschema.xml:171
 msgid "Whether search should be case sensitive"
@@ -213,7 +215,7 @@ msgstr "取消"
 
 #: src/gtk/shortcut-dialog.ui:28
 msgid "Apply"
-msgstr "同意"
+msgstr "确定"
 
 #: src/gtk/shortcut-dialog.ui:68
 msgid "This shortcut is already in use"
@@ -419,7 +421,7 @@ msgstr "光标形状"
 
 #: src/gtk/preferences-window.ui:258
 msgid "Block"
-msgstr "Block"
+msgstr "方块"
 
 #: src/gtk/preferences-window.ui:259
 msgid "IBeam"
@@ -471,7 +473,7 @@ msgstr "上个会话"
 
 #: src/gtk/preferences-window.ui:333
 msgid "Home Directory"
-msgstr "Home目录"
+msgstr "主目录"
 
 #: src/gtk/preferences-window.ui:334
 msgid "Custom"
@@ -483,7 +485,7 @@ msgstr "自定义工作目录"
 
 #: src/gtk/preferences-window.ui:360
 msgid "Set to user's home"
-msgstr "设置为用户主页"
+msgstr "设置为用户主目录"
 
 #: src/gtk/preferences-window.ui:372
 msgid "Scrolling"
@@ -722,7 +724,7 @@ msgstr "关闭标签页"
 #: src/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Rename tab"
-msgstr "重命名tab"
+msgstr "重命名标签页"
 
 #: src/gtk/help-overlay.ui:37
 msgctxt "shortcut window"
@@ -752,7 +754,7 @@ msgstr "复制"
 #: src/gtk/help-overlay.ui:66
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr "粘帖"
+msgstr "粘贴"
 
 #: src/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
@@ -851,20 +853,20 @@ msgstr "设置"
 
 #: src/gtk/tab-menu.ui:9
 msgid "Move Tab Left"
-msgstr "向左移动 Tab"
+msgstr "向左移动标签页"
 
 #: src/gtk/tab-menu.ui:14
 msgid "Move Tab Right"
-msgstr "向右移动 Tab"
+msgstr "向右移动标签页"
 
 #: src/gtk/tab-menu.ui:21 src/widgets/ShortcutEditor.vala:147
 #: src/widgets/Window.vala:607
 msgid "Rename Tab"
-msgstr "重命名 Tab"
+msgstr "重命名标签页"
 
 #: src/gtk/tab-menu.ui:25
 msgid "Move Tab to New Window"
-msgstr "将Tab移至新窗口"
+msgstr "将标签页移至新窗口"
 
 #: src/gtk/tab-menu.ui:32 src/widgets/ShortcutEditor.vala:146
 msgid "Close Tab"
@@ -876,7 +878,7 @@ msgstr "远程访问"
 
 #: src/gtk/header-bar.ui:25
 msgid "SSH Connections"
-msgstr "SSH连接"
+msgstr "SSH 连接"
 
 #: src/gtk/header-bar.ui:35 src/gtk/header-bar.ui:43
 msgid "New Connection"
@@ -952,7 +954,7 @@ msgstr "是"
 
 #: src/utils/Dialogs.vala:36
 msgid "OK"
-msgstr "同意"
+msgstr "好的"
 
 #: src/utils/Dialogs.vala:37
 msgid "Keep"
@@ -1071,7 +1073,7 @@ msgstr "重置缩放"
 #: src/widgets/ShortcutEditor.vala:157
 #, c-format
 msgid "Switch to Tab %u"
-msgstr "切换到选项卡 %u"
+msgstr "切换到标签页 %u"
 
 #: src/widgets/ShortcutEditor.vala:158
 msgid "Switch to Last Tab"
@@ -1085,11 +1087,11 @@ msgstr "重置所有快捷方式？"
 msgid ""
 "This will reset all shortcuts to default and overwrite your config file. "
 "This action is irreversible."
-msgstr "这将把所有快捷方式重置为默认设置，并覆盖配置文件。此操作不可逆转。"
+msgstr "这将把所有快捷方式重置为默认设置，并覆盖配置文件。此操作不可逆。"
 
 #: src/widgets/TerminalTab.vala:57
 msgid "tab"
-msgstr "选项卡"
+msgstr "标签页"
 
 #: src/widgets/TerminalTab.vala:107
 msgid "Error"
@@ -1097,11 +1099,11 @@ msgstr "错误"
 
 #: src/widgets/Window.vala:608
 msgid "Set a custom title for this tab"
-msgstr "为该选项卡设置自定义标题"
+msgstr "为该标签页设置自定义标题"
 
 #: src/widgets/Window.vala:611
 msgid "Enter a custom tab title"
-msgstr "输入自定义选项卡标题"
+msgstr "输入自定义标签页标题"
 
 #: src/widgets/Window.vala:618
 msgid "Reset Title"
