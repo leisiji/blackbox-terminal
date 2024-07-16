@@ -69,7 +69,8 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.gnome.org/raggesilver/blackbox"
+          "url": "https://gitlab.gnome.org/raggesilver/blackbox",
+          "branch": "main"
         }
       ]
     }
